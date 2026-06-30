@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.css">
+    <title>Chemistry Calculators; Calcify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="math.html">Mathematics</a></li>
+            <li><a href="phy.html">Physics</a></li>
+            <li><a href="chem.html">Chemistry</a></li>
+            <li><a href="astro.html">Astronomy</a></li>
+            <li><a href="geo.html">Geometry</a></li>
+            <li><a href="conversion.html">Conversion</a></li>
+        </ul>
+    </nav>
+    <h1>🧪Browse Chemistry Based calculators...</h1>
+    <section>
+        <div>
+            <h1>Mole Calculator.</h1>
+            <h3>input = mass and molar mass...</h3>
+            <input type="number" placeholder="Mass" id="massinp">
+            <input type="number" placeholder="Molar Mass" id="molmassinp">
+            <button id="buttmole" title="Check your answer!">Solve!</button>
+            <p id="molecontainer"></p>
+        </div>
+        <div>
+            <h1>Density Calculator.</h1>
+            <h3>Input = Mass and Volume...</h3>
+            <input type="number" placeholder="Mass" id="densityMass">
+            <input type="number" placeholder="Volume" id="densityVolume">
+            <button id="densityButton" title="Check your answer!">Solve!</button>
+            <p id="denseContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>No of Atom/Molecules Calculators</h1>
+            <h3>Input = Mass</h3>
+            <input type="number" placeholder="Mass" id="avogadroMass">
+            <button id="avogadroButton" title="Check your answer!">Solve!</button>
+            <p id="avogadroContainer"></p>
+        </div>
+        <div>
+            <h1>Molarity calculator</h1>
+            <h3>Input = moles and volume</h3>
+            <input type="number" placeholder="Moles" id="molarityMoles">
+            <input type="number" placeholder="Volume" id="molarityVolume">
+            <button id="molarityButton" title="Check your answer!">Solve!</button>
+            <p id="molarityContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Percentage Yield Calculator</h1>
+            <h3>Input = Actual yield, Theoretical yield</h3>
+            <input type="number" placeholder="Actual yield" id="actyield">
+            <input type="number" placeholder="Theoretical yield" id="theoyield">
+            <button id="yieldButton" title="Check your answer!">Solve!</button>
+            <p id="yieldContainer"></p>
+        </div>
+        <div>
+            <h1>pH Calculator</h1>
+            <h3>Input = Concentration</h3>
+            <input type="number" placeholder="Concentration" id="pHConc">
+            <button id="pHButton" title="Check your answer!">Solve!</button>
+            <p id="pHContainer"></p>
+        </div>
+    </section>
+    <footer>
+        <p>Made by Muhammad Huzaifa Sultan &copy; 2026</p>
+    </footer>
+    <script src="chem.js"></script>
+
+</body>
+</html>

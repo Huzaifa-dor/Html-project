@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Calculator; Calcify</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="math.html">Mathematics</a></li>
+            <li><a href="phy.html">Physics</a></li>
+            <li><a href="chem.html">Chemistry</a></li>
+            <li><a href="astro.html">Astronomy</a></li>
+            <li><a href="geo.html">Geometry</a></li>
+            <li><a href="conversion.html">Conversion</a></li>
+        </ul>
+    </nav>
+    <h1>⚛️Browse Physics Based Calculators only on Calcify...</h1>
+    <section>
+        <div>
+            <h1>Momentum Calculator</h1>    
+            <h3>Input = Mass(kg) and velocity(m/s) </h3>
+            <input type="number" placeholder="Mass" id="massMomentum">
+            <input type="number" placeholder="Velocity" id="velocityMomentum">
+            <button id="momentumButton" title="Check!">Solve!</button>
+            <p id="momentumContainer"></p>
+        </div>
+        <div>
+            <h1>Force Calculator</h1>
+            <h3>Input = Mass(kg) and Acceleration(m/sec<sup>2</sup>) </h3>
+            <input type="number" placeholder="Mass" id="massForce">
+            <input type="number" placeholder="Acceleration" id="accForce">
+            <button id="buttonForce" title="Check!">Solve!</button>
+            <p id="containerForce"></p>
+
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Speed Calculator</h1>
+            <h3>Input = Distance(m) And Time(s)</h3>
+            <input type="number" placeholder="Distance" id="distanceSpeed">
+            <input type="number" placeholder="Time" id="timeSpeed">
+            <button id="buttonSpeed" title="Check!">Solve!</button>
+            <p id="containerSpeed"></p>
+        </div>
+        <div>
+            <h1>Acceleration Calculator</h1>
+            <h3>Input = Initial Velocity (m/s), Final Velocity (m/s), Time (s)</h3>
+            <input type="number" placeholder="Int. Velocity" id="accInitial">
+            <input type="number" placeholder="Final Velocity" id="accFinal">
+            <input type="number" placeholder="Time" id="accTime">
+            <button id="accButton" title="Check!">Solve!</button>
+            <p id="accContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+        <h1>Volume (Cuboid) Calculator</h1>
+        <h3>Input = SideLenght (m)</h3>
+        <input type="number" placeholder="Side Lenght in meter" id="lenCube">
+        <button id="buttonCube" title="check!">Solve!</button>
+        <p id="containerCube"></p>
+        </div>
+        <div>
+            <h1>Volume (Sphere) Calculator</h1>
+            <h3>Input = Radius(m)</h3>
+            <input type="number" placeholder="Radius in Meters" id="radSph">
+            <button id="sphButton" title="check!">Solve!</button>
+            <p id="sphContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Resistance Calculator!</h1>
+            <h3>Input = Current (I) and Voltage (V)</h3>
+            <input type="number" placeholder="Voltage" id="voltResis">
+            <input type="number" placeholder="Current" id="currentResis">
+            <button id="buttonResis" title="Check!">Solve!</button>
+            <p id="containerResis"></p>
+        </div>
+        <div>
+            <h1>Voltage Calculator!</h1>
+            <h3>Input = Current(I) and Resistance(R)</h3>
+            <input type="number" placeholder="Current" id="currentVolt">
+            <input type="number" placeholder="Resistance" id="resisVolt">
+            <button id="buttonVolt" title="Check!">Solve!</button>
+            <p id="containerVolt"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>K.E Calculator</h1>
+            <h3>Input = Mass (kg) and Velocity (m/s)</h3>
+            <input type="number" placeholder="Mass" id="massKE">
+            <input type="number" placeholder="Velocity" id="velocityKE">
+            <button id="buttonKE" title="Check!">Solve!</button>
+            <p id="containerKE"></p>
+        </div>
+        <div>
+            <h1>P.E Calcualtor</h1>
+            <h3>Input = Mass (kg) and Height (m)</h3>
+            <input type="number" placeholder="Mass" id="massPE">
+            <input type="number" placeholder="Height" id="heightPE">
+            <button id="buttonPE" title="Check!">Solve!</button>
+            <p id="containerPE"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Power Calculator</h1>
+            <h3>Input = Work (J) and Time (s)</h3>
+            <input type="number" placeholder="Work" id="workPower">
+            <input type="number" placeholder="Time" id="timePower">
+            <button id="buttonPower" title="check!">Solve!</button>
+            <p id="containerPower"></p>
+        </div>
+        <div>
+            <h1>Centripetal Force Calculator!</h1>
+            <h3>Input = Mass(kg), Velocity (m/s) and Radius (m)</h3>
+            <input type="number" placeholder="Mass" id="massCF">
+            <input type="number" placeholder="Velocity" id="velocityCF">
+            <input type="number" placeholder="Radius" id="radCF">
+            <button id="buttonCF" title="Check!">Solve!</button>
+            <p id="containerCF"></p>
+        </div>
+    </section>
+    <footer>
+        <p>Made by Muhammad Huzaifa Sultan &copy; 2026</p>
+    </footer>
+    <script src="phy.js"></script>
+</body>
+</html>

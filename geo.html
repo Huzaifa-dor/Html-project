@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Calculators; Only on Calcify!</title>
+        <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="math.html">Mathematics</a></li>
+            <li><a href="phy.html">Physics</a></li>
+            <li><a href="chem.html">Chemistry</a></li>
+            <li><a href="astro.html">Astronomy</a></li>
+            <li><a href="geo.html">Geometry</a></li>
+            <li><a href="conversion.html">Conversion</a></li>
+        </ul>
+    </nav>
+    <h1>📐Geometry Calculators; Browse on Calcify!</h1>
+    <section>
+        <div>
+            <h1>Area of A Circle</h1>
+            <h3>Input = Radius(m) </h3>
+            <input type="number" placeholder="Radius" id="radAreaCircle">
+            <button id="buttonAreaCircle">Solve!</button>
+            <p id="containerAreaCircle"></p>
+        </div>
+        <div>
+            <h1>Circle Circumference</h1>
+            <h3>Input = Radius(m) </h3>
+            <input type="number" placeholder="Radius" id="radCircCircle">
+            <button id="buttonCircCircle">Solve!</button>
+            <p id="containerCircCircle"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Area Of a Triangle</h1>
+            <h3>Input = Breadth (m) and Height (m)</h3>
+            <input type="number" placeholder="Breadth" id="breadthAreaTri">
+            <input type="number" placeholder="Height" id="heightAreaTri">
+            <button id="buttonAreaTri">Solve!</button>
+            <p id="containerAreaTri"></p>
+        </div>
+        <div>
+            <h1>Area Of a Trapezoid</h1>
+            <h3>Input = "a" (First Parrellel) "b" (Breadth) and "h" (height) [m]</h3>
+            <input type="number" placeholder="First Parrellel" id="aAreaTrap">
+            <input type="number" placeholder="Second Parrellel" id="bAreaTrap">
+            <input type="number" placeholder="Height" id="hAreaTrap">
+            <button id="buttonAreaTrap">Solve!</button>
+            <p id="containerAreaTrap"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Volume Of a Sphere</h1>
+            <h3>Input = Radius (m)</h3>
+            <input type="number" placeholder="Radius" id="radVolSph">
+            <button id="buttonVolSph">Solve!</button>
+            <p id="containerVolSph"></p>
+        </div>
+        <div>
+            <h1>Volume of a Cylinder</h1>
+            <h3>Input = Radius (m) Height(m)</h3>
+            <input type="number" placeholder="Radius" id="radVolCyl">
+            <input type="number" placeholder="Height" id="heightVolCyl">
+            <button id="buttonVolCyl">Solve!</button>
+            <p id="containerVolCyl"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Volume of a Cone</h1>
+            <h3>Input = Radius (m) Height(m)</h3>
+            <input type="number" placeholder="Radius" id="radVolCone">
+            <input type="number" placeholder="Height" id="heightVolCone">
+            <button id="buttonVolCone">Solve!</button>
+            <p id="containerVolCone"></p>
+        </div>
+        <div>
+            <h1>Surface Area of Sphere</h1>
+            <h3>Input = Radius (m)</h3>
+            <input type="number" placeholder="Radius" id="radSurfSph">
+            <button id="buttonSurfSph">Solve!</button>
+            <p id="containerSurfSph"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Surface Area of a Cube</h1>
+            <h3>Input = Side(m)</h3>
+            <input type="number" placeholder="Side" id="sideSurfCube">
+            <button id="buttonSurfCube">Solve!</button>
+            <p id="containerSurfCube"></p>
+        </div>
+        <div>
+            <h1>Volume of a Cube</h1>
+            <h3>Input = Side (m)</h3>
+            <input type="number" placeholder="Side" id="sideVolCube">
+            <button id="buttonVolCube">Solve!</button>
+            <p id="containerVolCube"></p>
+        </div>
+    </section>
+    <h1>Pythagorean Theorem; [a<sup>2</sup>+ b<sup>2</sup>= c<sup>2</sup>]</h1>
+    <section>
+        <div>
+        <h1>Base Calculator [a]</h1>
+        <h3>Input = Perpendicular [b] and Hypoteneous [c]</h3>
+        <input type="number" placeholder="Perpendicular" id="pythaAPerp">
+        <input type="number" placeholder="Hypoteneous" id="pythaAHyp">
+        <button id="pythaAButton">Solve!</button>
+        <p id="pythaAContainer"></p>
+        </div>
+        <div>
+            <h1>Perpendicular Calculator [b]</h1>
+            <h3>Input = Base [a] and Hypoteneous [c] in Meters</h3>
+            <input type="number" placeholder="Base" id="pythaBBase">
+            <input type="number" placeholder="Hypoteneous" id="pythaBHyp">
+            <button id="pythaBButton">Solve!</button>
+            <p id="pythaBContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Hypoteneous Calculator [c]</h1>
+            <h3>Input = Base [a] and Perpendicular [b]</h3>
+            <input type="number" placeholder="Base" id="pythaCBase">
+            <input type="number" placeholder="Perpendicular" id="pythaCPerp">
+            <button id="pythaCButton">Solve!</button>
+            <p id="pythaCContainer"></p>
+        </div>
+    </section>
+    <h1>Midpoint and Distance Formulas</h1>
+    <section>
+        <div>
+            <h1>Midpoint Calculator!</h1>
+            <h3>Input = x<sub>1</sub>, x<sub>2</sub>, y<sub>1</sub>, y<sub>2</sub></h3>
+            <input type="number" placeholder="x₁" id="midx1">
+            <input type="number" placeholder="x₂" id="midx2">
+            <input type="number" placeholder="y₁" id="midy1">
+            <input type="number" placeholder="y₂" id="midy2">
+            <button id="midpointButton">Solve!</button>
+            <p id="midpointContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Distance Between Two Points</h1>
+            <h3>Input = x<sub>1</sub>, x<sub>2</sub>, y<sub>1</sub>, y<sub>2</sub></h3>
+            <input type="number" placeholder="x₁" id="distx1">
+            <input type="number" placeholder="x₂" id="distx2">
+            <input type="number" placeholder="y₁" id="disty1">
+            <input type="number" placeholder="y₂" id="disty2">
+            <button id="distanceButton">Solve!</button>
+            <p id="distanceContainer"></p>
+        </div>
+    </section>
+    <h1>Trignometry</h1>
+    <section>
+        <div>
+            <h1>Sineθ Calculators</h1>
+            <h3>Input = Perpendicular [b] and Hypotenuse [c] </h3>
+            <input type="number" placeholder="Perpendicular" id="sinPerp">
+            <input type="number" placeholder="Hypotenuse" id="sinHyp">
+            <button id="sinButton">Solve!</button>
+            <p id="sinContainer"></p>
+        </div>
+        <div>
+            <h1>Cosineθ Calculator</h1>
+            <h3>Input = Base [A] and Hypotenuse [C]</h3>
+            <input type="number" placeholder="Base" id="cosBase">
+            <input type="number" placeholder="Hypotenuse" id="cosHyp">
+            <button id="cosButton">Solve!</button>
+            <p id="cosContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Tangentθ Calulator</h1>
+            <h3>Input = Perpendicular [B] and Base [A]</h3>
+            <input type="number" placeholder="Perpendicular" id="tanPerp">
+            <input type="number" placeholder="Base" id="tanBase">
+            <button id="tanButton">Solve!</button>
+            <p id="tanContainer"></p>
+        </div>
+        <div>
+            <h1>θ [Theta] Calculator!</h1>
+            <h3>Input = Angle [Degrees]</h3>
+            <input type="number" placeholder="Angle" id="thetaAngle">
+            <button id="thetaButton">Solve!</button>
+            <p id="thetaContainerSin"></p>
+            <p id="thetaContainerCos"></p>
+            <p id="thetaContainerTan"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Angle From Opposite and Adjacent</h1>
+            <h3>Input = Perpendicular [b] Base [a]</h3>
+            <input type="number" placeholder="Perpendicular" id="tanInvPerp">
+            <input type="number" placeholder="Base" id="tanInvBase">
+            <button id="tanInvButton">Solve!</button>
+            <p id="tanInvContainer"></p>
+        </div>
+        <div>
+            <h1>Angle From Opposite and Hypotenuse</h1>
+            <h3>Input = Perpendicular [b] Hypotenuse [c]</h3>
+            <input type="number" placeholder="Perpendicular" id="sinInvPerp">
+            <input type="number" placeholder="Hypotenuse" id="sinInvHyp">
+            <button id="sinInvButton">Solve!</button>
+            <p id="sinInvContainer"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Angle From Adjacent and Hypotenuse</h1>
+            <h3>Input = Base [a] Hypotenuse [c]</h3>
+            <input type="number" placeholder="Base" id="cosInvBase">
+            <input type="number" placeholder="Hypotenuse" id="cosInvHyp">
+            <button id="cosInvButton">Solve!</button>
+            <p id="cosInvContainer"></p>
+        </div>
+    </section>
+    <script src="geo.js"></script>
+</body>
+</html>
