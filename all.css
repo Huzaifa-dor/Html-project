@@ -85,3 +85,27 @@ footer{
     box-shadow: 0 0 30px white;
     
 }
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
